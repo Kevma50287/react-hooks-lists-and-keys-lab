@@ -1,9 +1,7 @@
 import React from "react";
 
 function ProjectItem({ name, about, technologies }) {
-  console.log(technologies)
   let SpanTag = technologies.map((e, i)=>{
-    console.log(e, i)
     return (
       <span key={i}>{e}</span>
     )

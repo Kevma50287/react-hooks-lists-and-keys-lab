@@ -4,7 +4,7 @@ function NavBar() {
   const links = ["home", "about", "projects"];
   const Atag = links.map((e, i)=>{
     return (
-      <a key={i} href={e}>{e}</a>
+      <a key={i} href={`#${e}`}>{e}</a>
     )
   })
 
